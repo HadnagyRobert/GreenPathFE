@@ -1,0 +1,13 @@
+.autocomplete-input{
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: 0px;
+    margin: 10px;
+}
+/* 
+.autocomplete-list{
+    position: absolute;
+    z-index: 1000;
+} */

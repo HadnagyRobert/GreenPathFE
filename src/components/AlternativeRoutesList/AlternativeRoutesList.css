@@ -1,0 +1,42 @@
+.routes-list-container{
+    display: grid;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+background: linear-gradient(145deg, #ffffff, #dddddd);
+box-shadow:  20px 20px 60px #d0d0d0,
+             -20px -20px 60px #ffffff;
+    margin-left: 1rem;
+}
+
+.routes-list-main{
+    position: absolute;
+    z-index: 10;
+    display: grid;
+    place-items: start;
+    bottom: 0;     /* Adjust this value to move the list up or down */
+    /* right: 0;   */
+}
+
+.style-none{
+    list-style: none;
+    padding-left: 0px;
+    margin: 5px;
+}
+
+.locations{
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 1fr;
+    place-items: center;
+}
+
+/* .routes-bottom{
+    cursor: pointer;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    height: 2.2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 244.700px;
+} */

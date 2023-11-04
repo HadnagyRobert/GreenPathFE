@@ -1,0 +1,32 @@
+.item-container{
+    display: grid;
+    /* border: 1px solid #1D1D1F; */
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    background-color: white;
+    cursor: pointer;
+}
+.selected {
+    background-color: rgba( 139, 222, 184, 0.75 ) !important;
+    color: white;
+}
+
+.google_redirect{
+    width: 70px;
+    height: 45px;
+}
+
+.custom-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+  }
+  
+  .custom-grid p,
+  .custom-grid span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  

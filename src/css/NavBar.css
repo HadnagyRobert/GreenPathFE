@@ -1,0 +1,65 @@
+.NavBar {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    display: grid;
+    height: 5rem;
+    grid-template-columns: 0.2fr 0.2fr 0.4fr 1fr 0.6fr;
+    place-items: center;
+    background: rgba( 139, 222, 184, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+}
+
+.NavBar h1 {
+    color: white;
+}
+
+.Avatar {
+    justify-self: end;
+    margin-right: 2rem;
+}
+
+
+.NavBar input {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: 0px;
+    margin: 10px;
+}
+
+.autocomplete-input{
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: 0px;
+    margin: 10px;
+}
+
+
+.popup-selector-container {
+    background: rgba( 139, 222, 184 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+.animate-start {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  
+  @keyframes slide-fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-enter {
+    animation: slide-fade-in 1s forwards;
+  }

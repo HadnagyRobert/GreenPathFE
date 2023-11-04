@@ -1,0 +1,24 @@
+.dropdown-option-select {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    display: none;
+    z-index: 100;
+  }
+  
+  .dropdown-option-select option {
+    padding: 8px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .dropdown-option-select:focus {
+    display: block;
+  }
+  
+  .buttonGroup {
+    margin-top: -1px !important;
+    border-radius: 0px !important;
+    transform-origin: bottom left !important;
+  }
+  

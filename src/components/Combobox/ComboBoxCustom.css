@@ -1,0 +1,17 @@
+.cbItems{
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: white;
+}
+
+.cbItems ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding: 10px;
+}
+
+.cbItems li:hover {
+    cursor: pointer;
+    background-color: #f1f1f1;
+}

@@ -1,0 +1,10 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}      
+
+.toggle-switch-image{
+    width: 35px;
+    height: 35px;
+}
